@@ -90,3 +90,8 @@ Let's load a test SVN repository, located [here](https://svn.code.sf.net/p/ultra
   ```sh
  docker exec -it svn-server sh
   ```
+## dockerr restart 
+  ```sh
+docker restart svn-server
+  ```
+
