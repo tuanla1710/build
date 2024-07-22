@@ -1,9 +1,7 @@
-# install gitea using docker: 
+Install Gitea Using Docker
+You can install Gitea using Docker by following the instructions in this link.
 
-https://phoenixnap.com/kb/gitea-docker
-
-# Ubuntu on Vitual Box in Background
-
+Ubuntu on VirtualBox in Background
 To automatically start your VirtualBox VM in headless mode when Windows 10 boots up, you can create a task in Task Scheduler. Here’s how you can do it:
 
 Open Task Scheduler:
@@ -33,3 +31,7 @@ Go to the “Settings” tab and ensure “Allow task to be run on demand” is 
 Click “OK” to save the task.
 Enter Credentials:
 You may be prompted to enter your user credentials to create the task.
+Example:
+
+Action: "C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe"
+Add arguments: --startvm "{284145fb-3dfc-4c34-bc81-964e31c56147}" --type "headless"
