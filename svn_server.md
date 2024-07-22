@@ -85,3 +85,8 @@ Let's load a test SVN repository, located [here](https://svn.code.sf.net/p/ultra
   ```sh
   $ svn info svn://localhost:3690/ultrastardx
   ```
+
+## login to the docker: 
+  ```sh
+ docker exec -it svn-server sh
+  ```
